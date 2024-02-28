@@ -2,6 +2,7 @@
 SignSense - Redefining Communication with Tech Magic!
 
 This project contains two parts:
+
 👉 Part 1: Signs to Words and Sounds; For this we use YOLO v7 and Mediapipe:
 
 YOLO V7: For training we choose 8 classes ('hello','welcome','world','sign','language','nice to','meet you','thank you') and for that we labeled 2400 images where 2160 images used for training and 240 images for validation.Get a copy of coco.yaml file as custom.ymal,Do some changes in the custom.yaml file,download the initial weight and trained our model using this weight by the use of 1000 epochs.After the completion of training we used the 'last.pt',which is the best weight for the model,for the testing process.'detect.py',an in built function for testing the model,by the use of this model we can predict the sign language.
