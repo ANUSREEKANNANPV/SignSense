@@ -1,7 +1,7 @@
 # SignSense
 SignSense - Redefining Communication with Tech Magic!
 
-   This project contains two parts:
+This project contains two parts:
 👉 Part 1: Signs to Words and Sounds; For this we use YOLO v7 and Mediapipe:
 
 YOLO V7: For training we choose 8 classes ('hello','welcome','world','sign','language','nice to','meet you','thank you') and for that we labeled 2400 images where 2160 images used for training and 240 images for validation.Get a copy of coco.yaml file as custom.ymal,Do some changes in the custom.yaml file,download the initial weight and trained our model using this weight by the use of 1000 epochs.After the completion of training we used the 'last.pt',which is the best weight for the model,for the testing process.'detect.py',an in built function for testing the model,by the use of this model we can predict the sign language.
@@ -12,10 +12,8 @@ Mediapipe: As we all known mediapipe is basically for action detection.Here we y
 
 👉 Part 2: Text to Sign Language ; Here also we have two part:
 
-first part is by the use of a website called fun translation,its free API allow us to translate text to ASL(American Sign Language).
-
-second part is converting text into captivating Sign Language animations.In this stage we introducing our Keyframe Animation for Everyone,"KAE",which is an animated 3D model for converting our sign language into actions.
-
+First part is by the use of a website called fun translation,its free API allow us to translate text to ASL(American Sign Language).
+Second part is converting text into captivating Sign Language animations.In this stage we introducing our Keyframe Animation for Everyone,"KAE",which is an animated 3D model for converting our sign language into actions.
 (KAE is build by the use of the website DeepMotion)
 
 For implement all these together we create a website "SignSense"
